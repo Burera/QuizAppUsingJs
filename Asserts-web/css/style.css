@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F1C40F ;
+}
+.text_Enter
+{
+    
+    width: 400px;
+}
+.Form input,
+.Form button
+{
+ display: block;
+ width: 100%;;
+}
+.Form input
+{
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #E5E7E9;
+    color: #E5E7E9;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 5px;
+}
+.Form input:focus{
+    outline: none;
+}
+.Form button:focus{
+    outline: none;
+}
+.Form button:hover{
+    background-color: #D7DBDD ;
+}
+
+.Form button{
+    font-size: 22px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+    background-color: #E5E7E9 ;
+    color: #F1C40F;
+}
+
+/* ////////////////2nd page ///////////// */
+
+.test{
+    
+    height: 500px;
+    width: 800px;
+   
+    display: grid;
+    grid-template-rows: 60px auto;
+   
+    
+
+}
+.test_header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7DC6F ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.test_body
+{
+    background-color: #EBEDEF ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;;
+}
+.text_Username
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+.test_timer
+{
+    display: flex;
+    align-items: center;
+   padding-right: 30px;
+}
+.option_group
+{
+    list-style: none;
+}
+.option
+{
+    background-color: #F7DC6F;
+    width: 300px;
+    padding: 15px 20px;
+    margin: 15px 0px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+}
+.option:hover{
+    cursor: pointer;
+    border: 2px solid #F1C40F;
+}
+.next_button
+{
+    background-color: #F7DC6F;
+   
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+
+}
+.next_button:hover{
+    cursor: pointer;
+     background-color: #E5E7E9;
+     color: #F1C40F;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+
+}
+.active
+{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
+
+.Ending
+{
+    color: #E5E7E9;
+}
+.username,
+.user_marks,
+.user_time
+{
+    align-items: center;
+    margin-top: 15px;;
+}
